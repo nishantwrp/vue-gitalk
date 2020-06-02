@@ -1,0 +1,40 @@
+{
+  "name": "vue-gitalk",
+  "main": "./dist/vue-gitalk.common.js",
+  "description": "Vue component for gitalk.",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishantwrp/vue-gitalk.git"
+  },
+  "keywords": [
+    "vue",
+    "plugin",
+    "gitalk",
+    "vue-plugin"
+  ],
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/nishantwrp/vue-gitalk/issues"
+  },
+  "homepage": "https://github.com/nishantwrp/vue-gitalk#readme",
+  "scripts": {
+    "serve": "vue serve src/Gitalk.vue",
+    "build": "vue-cli-service build --target lib --name vue-gitalk src/main.js",
+    "lint": "vue-cli-service lint"
+  },
+  "license": "MIT",
+  "author": "Nishant Mittal",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11",
+    "gitalk": "^1.6.2"
+  }
+}
