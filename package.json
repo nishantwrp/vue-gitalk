@@ -1,7 +1,7 @@
 {
   "name": "vue-gitalk",
   "main": "./dist/vue-gitalk.common.js",
-  "description": "Vue component for gitalk.",
+  "description": "A plugin that simplifies adding Gitalk comments to Vue.",
   "version": "0.1.0",
   "repository": {
     "type": "git",
