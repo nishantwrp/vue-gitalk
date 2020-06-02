@@ -22,19 +22,18 @@ import  'vue-gitalk/dist/vue-gitalk.css';
 import  Gitalk  from  'vue-gitalk';
 
 Vue.use(Gitalk, {
-  ... //Global gitalk config options
+  ... //Global gitalk config
 });
 ```
 Then simply add the following line to your Vue files.
 ```html
 <Gitalk :config="{
-  ... // Gitalk config
+  ... // Component gitalk config
 }" />
 ```
 ## Note
 - All the gitalk config options can be used in the `Global` and `Component` configs.
-- The `Component` config overrides the Global config option.
-- You can skip any one of the config options as long as you provide all the `required` config options.
+- If same config option is provided in `Global` and `Component`. `Component` config option will be considered.
 
 
 ## Config Options
