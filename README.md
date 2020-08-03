@@ -1,5 +1,5 @@
 # Vue Gitalk
-<a href="https://npmjs.com/package/vue-gitalk"><img src="https://badge.fury.io/js/vue-gitalk.svg" alt="npm version"></a> <img src="https://badgen.net/github/license/nishantwrp/vue-gitalk"><img alt="npm" src="https://img.shields.io/npm/dt/vue-gitalk">
+<a href="https://npmjs.com/package/vue-gitalk"><img src="https://badge.fury.io/js/vue-gitalk.svg" alt="npm version"></a> <img src="https://badgen.net/github/license/nishantwrp/vue-gitalk"><img alt="npm" src="https://img.shields.io/npm/dt/vue-gitalk"><a title="MadeWithVueJs.com Shield" href="https://madewithvuejs.com/p/vue-gitalk/shield-link"> <img src="https://madewithvuejs.com/storage/repo-shields/2508-shield.svg"/></a>
 
 A plugin that simplifies adding [Gitalk](https://github.com/gitalk/gitalk) comments to Vue apps.
 
