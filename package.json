@@ -2,7 +2,7 @@
   "name": "vue-gitalk",
   "main": "./dist/vue-gitalk.js",
   "description": "A plugin that simplifies adding Gitalk comments to Vue.",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nishantwrp/vue-gitalk.git"
